@@ -14,8 +14,7 @@ This repository automates the login functionality of the OrangeHRM demo website 
 ### Prerequisites
 1. **Java** (version 21 or later).
 2. **Maven** installed.
-3. A valid API key or login credentials for the OrangeHRM demo website.
-
+   
 ---
 
 ### Installation
@@ -35,7 +34,6 @@ This repository automates the login functionality of the OrangeHRM demo website 
 ### Project Structure
 - **src/main/java/**: Application and utility classes.
   - **api/**: API utilities for login and authentication.
-  - **config/**: Configuration constants.
 - **src/test/java/**: Test cases and test data.
 - **pom.xml**: Maven configuration file.
 
@@ -45,10 +43,6 @@ This repository automates the login functionality of the OrangeHRM demo website 
 1. Execute login tests:
    ```bash
    mvn test
-   ```
-2. Generate an Allure report:
-   ```bash
-   mvn allure:serve
    ```
 
 ---
